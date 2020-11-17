@@ -25,19 +25,19 @@ include("includes/header.php");
                 </div>
                 <div class="form-group">
                     <label>CUIT</label>
-                    <input type="text" name="cuit" class="form-control" placeholder="ingrese el CUIT" alt="ingrese el CUIT">
+                    <input type="text" name="cuit" class="form-control" placeholder="ingrese el CUIT" alt="ingrese el CUIT" disabled>
                 </div>
                 <div class="form-group">
                     <label>Razon Social</label>
-                    <input type="text" name="razon_social" class="form-control" placeholder="razón social" alt="ingresar razón social">
+                    <input type="text" name="razon_social" class="form-control" placeholder="razón social" alt="ingresar razón social" disabled>
                 </div>
                 <div class="form-group">
                     <label>Alias</label>
-                    <input type="text" name="alias" class="form-control" placeholder="ingrese el alias" alt="ingresar alias de CBU">
+                    <input type="text" name="alias" class="form-control" placeholder="ingrese el alias" alt="ingresar alias de CBU" disabled>
                 </div>
                 <div class="form-group">
                     <label>CBU</label>
-                    <input type="text" name="cbu" class="form-control" placeholder="ingrese la CBU" alt="ingresar CBU">
+                    <input type="text" name="cbu" class="form-control" placeholder="ingrese la CBU" alt="ingresar CBU" disabled>
                 </div>
                 <button type="submit" name="guardar_sesion" class="btn btn-secondary btn-block p-2">Guardar sesión y datos.</button>
             </form>
